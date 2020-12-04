@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "software versioning system";
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "software repository/social network to display software";
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: "initializes a local git repository, which can be pushed to your online git repository",
+    code: "git init"
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,6 +46,11 @@
 
 //CODE HERE
 
+let clone = {
+    description: "creates a copy of an online repository on your local computer, which can be snynced together via push/pull commands",
+    code: "git clone https://github.com/gommster/v4-unit-assessment-1"
+}
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +58,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description: "command to display which files in your local files do not match those in the online repository that is linked to your local initialization, and whether or not they have been staged",
+    code: "git status"
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +69,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: "adds the specified file to 'staging' which can then be committed and pushed to your online repo",
+    code: 'git add practice-js-2.js'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +80,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description: "command to save any staged changes to your local copy of the repo. This includes a message that should describe any changes made",
+    code: 'git commit -m "completed Assessment-1!"'
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +91,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description: "command similar to clone, but which allows you to set other repos as destinations for pushes",
+    code: "git remote add origin"
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +102,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: "command that actually updates the online repo connected to your local repo. If no repo is specified in the command, 'origin' is implied",
+    code: "git push"
+}

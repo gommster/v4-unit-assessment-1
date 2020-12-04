@@ -1,0 +1,196 @@
+/* 
+CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    width: 668px;
+    background-color: white;
+    margin: auto;
+    height: 937px;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(137,252,214);
+    overflow: auto;
+}
+
+h1{
+    margin: 15px 20px;
+    font-size: 16;
+}
+
+.rectangles{
+    margin: 10px;
+    height:200px;
+    box-sizing: border-box;
+}
+
+.rect-box{
+    border: dashed rgb(70,66,136) 1px;
+    height: 180px;
+    box-sizing: border-box;
+}
+
+.long{
+    height: 75px;
+    width: 150px;
+    background-color: rgb(72,24,127);
+    border: solid 2px rgb(250,34,28);
+    float: left;
+    margin: 80px 10px 10px 10px;
+}
+
+.small-square{
+    height: 75px;
+    width: 75px;
+    border: solid 1px black;
+    box-shadow: 7px 7px 7px;
+    background-color: rgb(1,53,248);
+    float: left;
+    margin: 80px 10px 10px 10px;
+}
+
+.big-square{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(215,116,147);
+    border: solid black 1px;
+    float: left;
+    margin: 10px;
+    clear: right;
+}
+
+.circles{
+    height: 380px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.cir-box{
+    border: dashed rgb(70,66,136) 1px;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.head-ball{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin: 0 0 0 37px;
+}
+
+.body-ball{
+    height: 110px;
+    width:110px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin: 0 0 0 20px;
+}
+
+.leg-ball{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+.eye{
+    margin: 10px;
+    height:7px;
+    width: 7px;
+    margin: 10px 0 0 15px;
+}
+
+.nose{
+    height: 7px;
+    width: 7px;
+    margin: 0 0 0 25px;
+}
+
+.body-ball .eye{
+    margin: 10px 0 0 50px;
+}
+
+.everything{
+    height: 180px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.every-box{
+    border: dashed rgb(70,66,136) 1px;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color: rgb(245,244,222);
+}
+
+.outer-circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: black solid 1px;
+    background-color: rgb(28,125,26);
+}
+
+.inner-box{
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+    background-color: rgb(162,47,46);
+    color: white;
+}
+
+.inner-box p{
+    text-align: center;
+}
+
+.inner-circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(1,53,248);
+}
+
+
+
+.nemo{
+    height: 15px;
+    width: 15px;
+    margin: 20px 0 0 20px;
+}
